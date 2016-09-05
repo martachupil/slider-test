@@ -33,7 +33,7 @@ html, body {
     top:0;
     height: 100%;
     width: 48px;
-    color: gray;
+    color: red;
     font-size: 15pt;
     z-index: 9;
 }
