@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    /*no mercy to everyone*/
+    font: 10pt 'Comic Sans MS', sans-serif;
+}
+
+.gallery {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery__container {
+    display: table;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.gallery__button {
+    position: absolute;
+}
+
+.gallery__ctrl {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position: absolute;
+    top:0;
+    height: 100%;
+    width: 48px;
+    color: gray;
+    font-size: 15pt;
+    z-index: 9;
+}
+
+.gallery__ctrl:hover {
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.gallery__backward {
+    left:0;
+}
+
+.gallery__forward {
+    right:0;
+}
+
+.gallery__slide {
+    display: inline-block;
+    float: left;
+}
+
+.gallery__slide img {
+    width: 100%;
+    max-width: 100%;
+}
